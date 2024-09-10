@@ -1,0 +1,19 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@grammyjs/hydrate": "github:grammyjs/hydrate",
+    "dotenv": "^16.4.5",
+    "grammy": "^1.30.0",
+    "grammyjs": "file:../../../../../hydrate",
+    "nodemon": "^3.1.4"
+  }
+}
